@@ -1,0 +1,22 @@
+/* seletor {
+    propriedade: valor;
+
+}
+
+seletores 
+nome da tag:div,span,h1,
+class:.titulo
+id:#idTag
+pseudo seletor h1 [] */
+
+body{
+background: url('../img/flores.jpg') no-repeat;
+background-size: 100%;
+}
+h1.titulo{
+    color: rgb(30, 30, 80);
+    font-style: italic;
+    background: rgb(0, 255, 213);
+    font-size: 45px;
+}
+
