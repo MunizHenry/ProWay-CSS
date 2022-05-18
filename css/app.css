@@ -9,14 +9,68 @@ class:.titulo
 id:#idTag
 pseudo seletor h1 [] */
 
-body{
-background: url('../img/flores.jpg') no-repeat;
-background-size: 100%;
+/* body {
+    background: url('../img/flores.jpg') no-repeat;
+    background-size: 100%;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
 }
-h1.titulo{
+
+h1.titulo {
     color: rgb(30, 30, 80);
     font-style: italic;
     background: rgb(0, 255, 213);
     font-size: 45px;
+    font-family: 'dosis', sans-serif;
+    text-align: center;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: right;
+    line-height: 40px;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    text-decoration: underline;
+    background: blue;
+    color: white;
+}
+
+a.linkpersonalizado {
+    color: brown;
+
+}
+
+a.linkpersonalizado:hover {
+    text-decoration: underline;
+    color: yellow;
+    background: black;
+}
+
+div {
+    width: 500px;
+}
+
+div.violet {
+    background: violet;
+}
+
+div.brown {
+    background: brown;
+}
